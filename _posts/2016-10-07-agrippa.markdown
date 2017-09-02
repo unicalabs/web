@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Agrippa"
+date:   2016-10-07 19:40:35 -0400
+---
+<p>
+Agrippa is a PHP-based secret sharing mechanism. Named after the work of <a href="https://en.wikipedia.org/wiki/Agrippa_(A_Book_of_the_Dead)">William Gibson</a>, Agrippa operates on the principle that sharing a temporary link to sensitive information is better than having the sensitive information itself persist in email, chat, or any other insecure communications channel.
+</p>
+
+![Agrippa](/assets/images/agrippa.png)
+
+<h4 id="how-it-works">How It Works</h4>
+<p>
+  <ol>
+    <li>Enter the secret to share, an expiration date/time, and a view limit.</li>
+    <li>Receive a unique link to the secret, which can be shared with the intended recipient.</li>
+    <li>Once the link expires or the view limit is surpassed, the secret is destroyed.</li>
+  </ol>
+</p>
+
+<p><strong>For more information, visit <a href="http://unicalabs.github.io/agrippa/" target="_blank">unicalabs.github.io/agrippa</a>.</strong></p>
